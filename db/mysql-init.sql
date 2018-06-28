@@ -1,7 +1,7 @@
 -- drop database if exists example_docker_db;
 -- create database example_docker_db;
 
-
+alter user 'root'@'%' identified with mysql_native_password by '123456';
 -- drop database if exists example_docker_db;
 -- create database example_docker_db;
 use example_db;

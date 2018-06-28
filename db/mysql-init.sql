@@ -1,7 +1,7 @@
 -- drop database if exists example_docker_db;
 -- create database example_docker_db;
 
-alter user 'root'@'%' identified with mysql_native_password by '123456';
+
 -- drop database if exists example_docker_db;
 -- create database example_docker_db;
 use example_db;
@@ -59,3 +59,5 @@ VALUES
 ( 9, now(), 'example-9', 'value-9');
 /*!40000 ALTER TABLE `example_table` ENABLE KEYS */;
 UNLOCK TABLES;
+
+alter user 'root'@'%' identified with mysql_native_password by '123456';
